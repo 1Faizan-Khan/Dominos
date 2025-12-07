@@ -1,0 +1,822 @@
+#fixed{
+
+    height:100px;
+    position:fixed;
+    top:0px;
+    width:100%;
+    background-color: rgb(0, 102, 204);
+    left:0px;
+    z-index:3;
+}
+
+#logo{
+
+    height:40px;
+    width:40px;
+    position:fixed;
+    top:40px;
+    left:180px;
+}
+
+#orderonline{
+    top:40px;
+    left:260px;
+    
+}
+
+#location{
+
+    top:40px;
+    left:330px;
+}
+
+#menu{
+
+    top:40px;
+    left:420px;
+}
+
+#coupons{
+
+    top:40px;
+    left:480px;
+}
+
+#trackers{
+
+    top:40px;
+    left:580px;
+}
+
+#giftcard{
+
+    top:40px;
+    left:780px;
+}
+
+
+.element{
+
+    position:fixed;
+    color:white;
+    width:60px;
+    font-weight:bold;
+    z-index:100;
+
+}
+
+.block:hover{
+
+    background-color:grey;
+    cursor:pointer;
+}
+
+
+#grey1{
+
+    width:60px;
+    height:100px;
+    top:0px;
+    left:250px;
+    position:fixed;
+}
+
+#grey2{
+    width:80px;
+    height:100px;
+    top:0px;
+    left:325px;
+    position:fixed;
+
+}
+
+#grey3{
+    width:80px;
+    height:100px;
+    top:0px;
+    left:405px;
+    position:fixed;
+
+}
+
+#grey4{
+    width:80px;
+    height:100px;
+    top:0px;
+    left:470px;
+    position:fixed;
+
+}
+
+#grey5{
+    width:80px;
+    height:100px;
+    top:0px;
+    left:570px;
+    position:fixed;
+
+}
+
+#grey6{
+    width:80px;
+    height:100px;
+    top:0px;
+    left:670px;
+    position:fixed;
+
+}
+
+#grey7{
+    width:80px;
+    height:100px;
+    top:0px;
+    left:770px;
+    position:fixed;
+
+}
+
+
+#signin{
+    width:150px;
+    height:100px;
+    position:fixed;
+    right:200px;
+    top:0px;
+    color:white;
+    background-color: rgb(0, 0, 0, .5);
+    text-align:center;
+    display: flex; /* Add this line */
+    align-items: center; /* Add this line */
+
+
+}
+
+#signin:hover{
+
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#cart{
+
+    position:fixed;
+    width:70px;
+    right:80px;
+    top:10px;
+    height:70px;
+
+}
+
+#cart:hover{
+
+    cursor:pointer;
+
+}
+
+
+#cartname{
+
+    cursor:pointer;
+    position:fixed;
+    top:80px;
+    right:100px;
+    color:white;
+}
+
+#cartname:hover{
+
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+#background{
+
+    position:absolute;
+    top:100px;
+    left:0px;
+    height:800px;
+    width:100%;
+}
+
+
+#footer{
+
+    position:absolute;
+    width:100%;
+    height:1500px;
+    background-color: rgb(200, 200, 200);
+    top:1500px;
+    left:0px;
+}
+
+
+ol{
+
+    list-style: none;
+}
+
+li:hover{
+
+    cursor:pointer;
+}
+
+ol{
+    float:left;
+    margin-left:10px
+
+
+}
+
+
+.heading{
+    margin-left:500px;
+    color:rgb(50, 50, 50, 50);
+}
+
+#mother{
+
+    margin-left:30px;
+
+}
+
+#second{
+
+    margin-left:230px;
+    margin-top:-30px;
+}
+
+#first{
+
+    margin-left:40px;
+}
+
+
+#third{
+    margin-left:420px;
+    margin-top:-30px;
+
+}
+
+
+#hogger{
+
+    margin-left:30px;
+}
+
+
+li{
+
+    margin-top:5px;
+}
+
+
+
+#real{
+
+    float:left;
+    margin-left:200px;
+    width:1000px;
+    height:1500px;
+    z-index: 500;
+}
+
+
+#thy{
+
+    float:left;
+}
+
+#fourth{
+
+    float:left;
+    margin-left:700px;
+    margin-top:-230px;
+}
+
+#mogger{
+
+    float:right;
+    margin-right:100px;
+    margin-top:-200px;
+}
+
+#logos{
+
+    float:left;
+    height:100px;
+    width:400px;
+    margin-top:100px;
+    margin-left:30px;
+
+}
+
+#cocacola{
+
+    float:left;
+    height:100px;
+    width:200px;
+    margin-top:100px;
+    margin-left:30px;
+}
+
+
+#dairy{
+
+    float:left;
+    height:200px;
+    width:200px;
+    margin-top:100px;
+    margin-left:30px;
+}
+
+#mix{
+
+    float:left;
+    margin-top:50px;
+    margin-left:10px;
+}
+
+#mixdetails{
+
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.carryout{
+
+    float:left;
+    margin-top:50px;
+    margin-left:10px;
+    clear:left;
+}
+
+
+#carryoutdetails{
+
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    clear:left;
+}
+
+#offers{
+
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    clear:left;
+}
+
+#offersdetails{
+
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+    clear:left;
+}
+
+#allergen{
+
+    float:left;
+    margin-top: 15px;
+    margin-left:10px;
+    clear:left;
+    
+}
+
+#rewards{
+
+    float:left;
+    margin-top:40px;
+    margin-left:680px;
+    clear:left;
+}
+
+
+#guarantee{
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+    clear:left;
+}
+
+
+#carryout{
+
+    float:left;
+    margin-left:10px;
+    clear:left;
+}
+
+
+#near{
+
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+    clear:left;
+}
+
+#transparency{
+
+
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+    clear:left;
+    text-decoration: underline;
+    color:rgb(0, 102, 204);
+}
+
+#transparency:hover{
+
+    cursor:pointer;
+}
+
+
+
+#ca{
+
+
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+    clear:left;
+    text-decoration: underline;
+    color:rgb(0, 102, 204);
+}
+
+#ca:hover{
+
+    cursor:pointer;
+}
+
+
+#accessibility{
+
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+    clear:left;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+#acces{
+
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    clear:left;
+}
+
+#ax{
+
+    text-decoration: underline;
+    color:rgb(0, 102, 204);
+}
+
+#problems{
+
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    clear:left;
+    color:black;
+}
+
+#number{
+    text-decoration: underline;
+    color:rgb(0, 102, 204);
+
+}
+
+
+
+#ax:hover{
+
+    cursor:pointer;
+}
+
+#number:hover{
+
+    cursor:pointer;
+
+}
+
+#container{
+
+    float:left;
+    width:600px;
+    height:1500px;
+    margin-top:20px;
+    padding:30px;
+    margin-left: 27%;
+}
+
+#startyourordercontainer{
+
+    background-color: rgb(0, 102, 204);
+    float:left;
+    width:90%;
+    height:80px;
+    padding:20px;
+    border-radius:15px;
+}
+
+#startyourorder{
+
+    float:left;
+    margin-left: 10px;
+    font-size:30px;
+    margin-top:20px;
+    color:white;
+    font-weight: bold;
+}
+
+#deliveryy{
+
+    float:left;
+    margin:10px;
+    color:white;
+    background-color: red;
+    width:100px;
+    height:70px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold;
+    font-size:20px;
+
+}
+
+#deliveryy:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#or{
+
+    float:left;
+    color:white;
+    font-size: 30px;
+    margin-top:30px;
+    margin-left:10px;
+}
+
+
+#carryoutt{
+
+    float:left;
+    color:white;
+    font-size:30px;
+    background-color: red;
+    width:90px;
+    height:70px;
+    margin-left:410px;
+    margin-top:-80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;
+    font-size:20px;
+
+
+}
+
+#carryoutt:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#pizzacoupons{
+
+    float:left;
+    font-size: 40px;
+    margin-top:10px;
+    font-weight: bold;
+
+}
+
+#choose{
+
+    float:left;
+    font-size: 18px;
+    margin-top:10px;
+}
+
+#local{
+
+    float:left;
+    width:600px;
+    height:200px;
+    margin-top:10px;
+    color:white;
+    background-color: rgb{200,200,200};
+    border-radius: 7px;
+    border-left: 3px dotted blue;
+    border-right: 3px dotted blue;
+    border-bottom: 3px dotted blue;
+}
+
+#aa{
+
+    float:left;
+    width:100%;
+    height:30px;
+    background-color: rgb(0, 102, 204);
+    font-size: 20px;
+    border-radius: 7px;
+
+}
+
+
+
+#see{
+
+    float:left;
+    margin-left: 20px;
+    margin-top:15px;
+    color:black;
+}
+
+#b{
+
+    float:right;
+    margin-right:50px;
+    margin-top:25px;
+    width:150px;
+    height:50px;
+    color:white;
+    font-weight: bold;
+    background-color: red;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#b:hover{
+
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#dom{
+    float:left;
+    width:600px;
+    height:35px;
+    background-color: rgb(0, 102, 204);
+    font-size: 20px;
+    border-radius: 7px;
+    margin-top: 10px;
+    color:white;
+    font-weight: bold;
+
+}
+
+#ch{
+
+    float:left;
+    height:200px;
+    width:600px;
+    margin-top: 10px;
+}
+
+#ch:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#all{
+
+    float:left;
+    width:600px;
+    height:200px;
+    margin-top: 10px;
+}
+
+
+#perfectcombodeal{
+
+    float:left;
+    width:600px;
+    height:200px;
+    margin-top: 10px;
+}
+
+#newyorkstyle{
+
+    float:left;
+    width:600px;
+    height:200px;
+    margin-top: 10px;
+}
+
+.img:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.imagee:hover{
+
+    cursor:pointer;
+}
+
+.rewards{
+
+    top:20px;
+    left:670px;
+}
+
+.hover-effect {
+    background-color: grey;
+    
+}
+
+#s{
+
+    float:left;
+    margin-top: 10px;
+    clear:left;
+    margin-left:10px;
+}
+
+
+#carryout{
+
+    float:left;
+    margin-top: 10px;
+    clear:left;
+}
+
+#orderonline:hover{
+
+    cursor:pointer;
+}
+
+#location:hover{
+
+    cursor:pointer;
+}
+
+#menu:hover{
+
+    cursor:pointer;
+}
+
+#coupons:hover{
+
+    cursor:pointer;
+}
+
+#trackers:hover{
+
+    cursor:pointer;
+}
+
+#rewards:hover{
+
+    cursor:pointer;
+}
+
+#giftcard:hover{
+
+    cursor:pointer;
+}
+
+.birth{
+
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
